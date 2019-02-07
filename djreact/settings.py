@@ -3,7 +3,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-05sgp9!deq=q1nltm@^^2cc+v29i(tyybv3v2t77qi66czazj'
 DEBUG = True
-ALLOWED_HOSTS = ['testdjango-slee2540.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['testdjango-slee2540.herokuapp.com', 'localhost', '127.0.0.1']]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -101,8 +101,8 @@ CORS_ORIGIN_WHITELIST = (
     'localhost:3000',
 )
 
-CSRF_COOKIE_NAME = "csrftoken"
+CSRF_COOKIE_NAME="csrftoken"
 
-ACCOUNT_EMAIL_REQUIRED = False
-ACCOUNT_AUTHENTICATION_METHOD = 'username'
-ACCOUNT_EMAIL_VERIFICATION = 'none'
+ACCOUNT_EMAIL_REQUIRED=False
+ACCOUNT_AUTHENTICATION_METHOD='username'
+ACCOUNT_EMAIL_VERIFICATION='none'
